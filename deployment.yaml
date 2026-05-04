@@ -17,5 +17,6 @@ spec:
       containers:
       - name: demo-app
         image: demo-app
+        imagePullPolicy: Never
         ports:
         - containerPort: 80
